@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.entry-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.entry-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.add-btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.logout-btn {
+    float: right;
+    text-decoration: none;
+    color: #e74c3c;
+}
